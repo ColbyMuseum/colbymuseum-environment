@@ -1,0 +1,33 @@
+.podcast__footer {
+
+  svg {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: 3px;
+    left: 3px;
+
+    &:hover path {
+      fill: rgba(#be0f34, 0.6);
+    }
+  }
+}
+
+.single-podcast {
+  #content .addthis_button {
+    top: 0;
+    width: 3em;
+  }
+
+  #content header .addthis_toolbox a img {
+    margin-left: 0;
+  }
+
+  .addthis_default_style {
+    display: flex;
+  }
+
+  #content header .addthis_toolbox {
+      position: static;
+  }
+}

@@ -1,0 +1,5 @@
+{
+"require": {
+"frozzare/wp-autoload": "^2.0"
+}
+}

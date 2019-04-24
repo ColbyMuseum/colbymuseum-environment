@@ -1,0 +1,63 @@
+.fine-print {
+	font-size: .82em;
+	color: rgba(0, 0, 0, .7);
+	margin-bottom: 2em;
+}
+
+#sidebar1 {
+	overflow: visible;
+}
+
+#menu-top-menu {
+	margin-top: .375em !important;
+}
+
+#sidebar1 ul.menu, #sidebar1 .menu-side ul.sub-menu {
+	margin-left: 5px !important;
+}
+
+.js body.home #main-wrapper {
+	background: #353535;
+	opacity: 0;
+	transition: opacity .4s ease-out 1s;
+}
+
+.js.opacity body.home #main-wrapper {
+	background: transparent;
+	opacity: 1;
+}
+
+.navbar .nav {
+	float: right;
+}
+
+.post-type-archive-exhibition .topHeader a {
+	color: #fff !important;
+}
+
+.accordion-heading .accordion-toggle {
+	opacity: 0;
+	max-height: 0;
+	transition: .3s;
+}
+
+.accordion-toggle.collapsed {
+	opacity: 1;
+	max-height: 100px;
+}
+
+#menu-top-menu > li {
+    padding-right: 30px;
+}
+
+.exhibition-overview-top {
+	padding: .5em 0 5em;
+}
+
+
+
+@media screen and (max-width: 979px) {
+	#content {
+	    margin-top: 0 !important;
+	}
+}

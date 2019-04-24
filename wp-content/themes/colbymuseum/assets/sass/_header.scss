@@ -1,0 +1,63 @@
+.top-right-links {
+  float: right;
+  margin-top: -37px;
+  display: flex;
+
+  @media (max-width: 767px) {
+    float: none;
+    margin-top: 17px;
+    position: static;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 12px;
+  }
+
+  svg {
+    width: 1.625em;
+    height: 1.625em;
+  }
+
+  a {
+    color: white !important;
+  }
+
+  a:hover {
+    color: rgba(164, 23, 32, 0.85) !important;
+  }
+
+  .search-icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+}
+
+#top-colbylogo {
+  position: relative;
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+
+  svg {
+    position: relative;
+    width: 85px;
+    top: -10px;
+    height: 46px;
+  }
+
+  a, a:hover {
+    color: white;
+  }
+}
+
+#museumLogo {
+  margin-top: -5px;
+
+  svg {
+    width: 67px;
+    height: 94px;
+
+  }
+}

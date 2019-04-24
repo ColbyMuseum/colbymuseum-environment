@@ -1,0 +1,28 @@
+#footerConnect {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+
+  svg {
+    width: 1.75em;
+    height: 1.75em;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: rgba(164, 23, 32, 0.85);
+    }
+  }
+}
+
+#footerWrapper {
+	& > a {
+		color: #be0f34;
+
+		&:hover {
+			color: #858585;
+		}
+	}
+}
